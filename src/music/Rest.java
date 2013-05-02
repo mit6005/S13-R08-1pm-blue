@@ -11,6 +11,13 @@ public class Rest implements Music {
     }
     
     /**
+     * @return duration of this rest
+     */
+    public double duration() {
+        return duration;
+    }
+    
+    /**
      * Make a Rest.
      * @requires duration >= 0
      * @return rest that lasts for duration beats
